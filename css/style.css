@@ -1,0 +1,232 @@
+/* Estilos Gerais */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #363638;
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.btn {
+	border:  3px solid #fec73c;
+	padding: 10px 30px;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	color: #000;
+	background: #fec73c;
+
+}
+
+.btn:hover {
+	color:  #fec73c;
+	background-color: transparent;
+}
+
+.btn.btn-preto:hover {
+	color:  #fec73c;
+	background-color: #000;
+}
+
+.subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 5px auto;
+}
+
+/*PANDECO */
+#nome_pandeco {
+	color: #000;
+	font-family: Slant;
+	font-size: 48px;
+}
+#nome_pandeco:hover{
+	color:  #801815;
+}
+
+/* Header*/ 
+.header {
+	width: 100%;
+	background: #fec73c;
+	padding: 15px 0;
+	position:  fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+.header_menu ul li a {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	/*letter-spacing: .1em;*/
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+	color: #801815;
+}
+/* Introdução*/
+
+.introducao {
+	width: 100%;
+	height: 380px;
+	background: url('../img/bg.jpg') no-repeat center;
+	background-size: cover;
+	margin-top: 77px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.introducao h1 {
+	font-size: 48px;
+	color: #FFF;
+	font-weight: bold;
+	margin-bottom: 100px;
+}
+
+.introducao h1:before, .introducao h1:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #FFF;
+	margin: 10px auto 0 auto;
+}
+
+/*Variedade - Produtos*/
+.produtos {
+	padding: 60px 0;
+	text-align: center;
+}
+
+.produtos_lista li {
+	background: #801815;
+	color:  #FFF;
+	text-align: center;
+	
+}
+
+.produtos_lista li h3 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.produtos_lista li h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #FFF;
+	margin: 5px auto;
+}
+
+.produtos_lista li p {
+	padding: 10px 20px 20px 20px;
+} 
+
+.call {
+	text-align: center;
+	padding-top: 20px;
+	clear: both;
+}
+
+.call p {
+	margin-bottom: 20px;
+}
+
+/*Footer */
+
+.footer {
+	width: 100%;
+	background: #000;
+	color: #fff;
+	padding:  20px;
+}
+
+.footer h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #fec73c;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.footer h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fec73c;
+	margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+	padding-right: 40px;
+}
+
+.footer_contato ul li, .footer_historia p{
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Georgia, serif;
+}
+
+.footer_redes ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer_redes ul li a{
+	border:  3px solid #fec73c;
+	display: block;
+	padding: 10px;
+}
+
+.footer_redes ul li a:hover{
+	border:  3px solid #fff;
+}
+
+.copy {
+	width: 100%;
+	background: #fec73c;
+	padding: 20px 0;
+	color: #000;
+}
