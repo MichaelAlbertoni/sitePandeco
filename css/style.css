@@ -67,6 +67,11 @@ img {
 	color:  #801815;
 }
 
+@font-face{
+	font-family: "Slant";
+	src:  url('../fonts/SLANT.TTF') format("truetype");
+}
+
 /* Header*/ 
 .header {
 	width: 100%;
