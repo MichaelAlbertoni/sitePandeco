@@ -57,12 +57,17 @@ img {
 	margin: 5px auto;
 }
 
+.menu_ativo {
+	color: #FFF;
+}
+
 /*PANDECO */
 #nome_pandeco {
 	color: #000;
 	font-family: Slant;
 	font-size: 48px;
 }
+
 #nome_pandeco:hover{
 	color:  #801815;
 }

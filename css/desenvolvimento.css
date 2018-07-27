@@ -1,0 +1,25 @@
+/*Desenvolvimento*/
+
+.desenvolvimento {
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+	text-align: center;
+	color: #000;
+	padding: 40px 0;
+	height: 300px;
+}
+
+.desenvolvimento h1 {
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.desenvolvimento p {
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+}
+
