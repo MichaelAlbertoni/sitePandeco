@@ -10,10 +10,20 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/contato.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script>
+  $( function() {
+    $( "#dialog" ).dialog(); /*Abre o modal com a mensagem*/
+  } );
+  </script>
 	
 </head>
 	<body>
-
+		<div id="dialog" title="Sistema em Desenvolvimento">
+			<p>Estamos com dedicação total a finalização do sistema para atender a todas as expectativas dos restaurantes e usuários, nos acompanhe nas redes sociais e fique por dentro da data de lançamento. Estamos esperando por você! Até logo.</p>
+		</div>
 		<header class="header">
 			<div class="container">
 				<a href="index.html" class="grid-4" id="nome_pandeco">PANDECO</a>
