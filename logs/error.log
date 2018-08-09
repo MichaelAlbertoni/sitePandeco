@@ -1,0 +1,5 @@
+[Thu Jul 26 19:36:23.341598 2018] [core:alert] [pid 29740] [client 189.113.50.135:64510] /var/www/pandeco.com.br/.htaccess: Invalid command 'TUD', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.pandeco.com.br/contato.html
+[Thu Jul 26 19:36:23.583161 2018] [core:alert] [pid 29923] [client 189.113.50.135:60546] /var/www/pandeco.com.br/.htaccess: Invalid command 'TUD', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.pandeco.com.br/index.html
+[Sun Jul 29 09:31:40.094293 2018] [:error] [pid 4226] [client 37.49.231.71:53586] script '/var/www/pandeco.com.br/elastix_warning_authentication.php' not found or unable to stat
+[Sat Aug 04 15:20:10.629756 2018] [:error] [pid 19343] [client 212.86.101.248:54125] script '/var/www/pandeco.com.br/main.php' not found or unable to stat, referer: https://31.220.49.230/
+[Sat Aug 04 16:17:46.212239 2018] [:error] [pid 18697] [client 212.86.101.248:60929] script '/var/www/pandeco.com.br/main.php' not found or unable to stat, referer: https://31.220.49.230/
