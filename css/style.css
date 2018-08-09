@@ -17,6 +17,9 @@ img {
 
 .btn {
 	border:  3px solid #fec73c;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /*Para Safari e Chrome */
+	border-radius: 10px; /* Para Opera 10.5+*/
 	padding: 10px 30px;
 	font-size: 14px;
 	line-height: 20px;
@@ -91,6 +94,9 @@ img {
 	text-align: right;
 }
 
+header_menu ul li .menu_ativo {
+	color: #801815;
+}
 .header_menu ul li {
 	display: inline-block;
 	margin-left: 25px;

@@ -1,7 +1,9 @@
 /*CSS responsivo*/
 /*Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
-
+ .missao {
+	width: 100%;
+	height: 650px;
 
 }
 
@@ -25,6 +27,9 @@
 	.header_menu ul li a {
 		width: 136px;
 		border:  2px solid #000;
+		-moz-border-radius: 10px; /* Para Firefox */
+		-webkit-border-radius: 10px; /*Para Safari e Chrome */
+		border-radius: 10px; /* Para Opera 10.5+*/
 		display: block;
 		float:  left;
 	}
@@ -50,5 +55,9 @@
 	.contato_form {
 		padding-right: 0px;
 		margin-bottom: 40px;
+	}
+
+	.interna_contato{
+		margin-top: 0px;
 	}
 }
